@@ -9,7 +9,7 @@ We found it easy & non intrusive for users to take followup actions.
 - Easy to integrate 
 
 <p align="center">
-  <img width="500" height="820" src="assets/2.png"/>
+  <img width="408" height="817" src="assets/2.png"/>
 </p>
 
 SwiftToast is part of Swift Experiments @ MobileFirst. 
