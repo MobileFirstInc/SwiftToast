@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let viewToast = ToastView(frame: CGRect(x: 0,y: 0,width: 300,height: 50))
         viewToast.duration = 1;
-        viewToast.backColor = UIColor.blackColor()
-        viewToast.font = UIFont(name: "Avenir-Roman", size: 20)
+        viewToast.backColor = UIColor.black
+        if let font = UIFont(name: "Avenir-Roman", size: 20) {
+            viewToast.font = font
+        }
         self.view.addSubview(viewToast)
         viewToast.showMessage("Longer Press to your location")
         viewToast.center=self.view.center
